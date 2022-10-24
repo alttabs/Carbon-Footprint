@@ -5,11 +5,11 @@ End to End Automated tests with Cypress
 ## Getting the Project
  - First: you need [NodeJS](https://nodejs.org/en/) installed to run Cypress aplications
  - Clone the Repository https://github.com/alttabs/Carbon-Footprint.git 
- - In the folder application `npm install` to install the dependencies
+ - In the application folder `npm install` to install the dependencies
  - Now, to run the application `npx cypress open`
 
 ## Running Tests
-After running the application will open a localhost window then you will be able to monitor the test execution in real-time
+After running the application will open a window then you will be able to monitor the test execution
 
 ![running.gif](running.gif)
 
