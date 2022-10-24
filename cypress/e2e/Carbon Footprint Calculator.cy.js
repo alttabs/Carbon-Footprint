@@ -17,7 +17,7 @@ context('Carbon Foortprint Calculator', () => {
     Home.getInvalidZipCodeError()
   })
 
-  xit('Form should not accept invalid number of people', () => {
+  it('Form should not accept invalid number of people', () => {
     Home.accessHome()
     Home.insertValueNofPeopleInput(-1)
     Home.insertZipcodeInput(12345)
@@ -37,6 +37,7 @@ context('Carbon Foortprint Calculator', () => {
   })
 
   it('Should Download Excell Calculator', () => {
+    Home.accessHome()
     Home.downloadSpredsheetCalculator()
   })
 
